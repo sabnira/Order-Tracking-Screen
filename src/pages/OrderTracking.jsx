@@ -2,7 +2,7 @@ import { useState } from "react";
 import OrderHeader from "../components/OrderHeader";
 import StatusBanner from "../components/StatusBanner";
 import OrderTimeline from "../components/OrderTimeline";
-// import OrderSummary from "../components/OrderSummary";
+import OrderSummary from "../components/OrderSummary";
 // import SupportCard from "../components/SupportCard";
 import { orders } from "../data/orders";
 
@@ -71,9 +71,9 @@ const OrderTracking = () => {
 
                     <OrderTimeline status={order.status} />
 
-                    {/* <OrderSummary product={order.product} />
+                    <OrderSummary product={order.product} />
 
-                    <SupportCard status={order.status} /> */}
+                    {/* <SupportCard status={order.status} /> */}
                 </main>
 
                 <footer className="px-5 pb-8 pt-2 text-center">
