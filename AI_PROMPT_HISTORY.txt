@@ -1,0 +1,17 @@
+AI Prompt History
+
+1. I have a frontend practical assessment to build a modern mobile Order Tracking screen for an e-commerce application. The requirements include delivery progress, current order status, estimated delivery date/time, order summary, contact support, responsive design for 360–430px widths, and handling delayed, delivered-but-not-received, and tracking-not-available states. Suggest a simple implementation approach using React, Vite, Tailwind CSS, DaisyUI, and React Icons. Do not use Next.js.
+
+2. Help me plan the React component structure for this Order Tracking screen. Keep the architecture simple 
+
+3. make mock order data for an e-commerce order tracking screen that supports these states: in transit, delayed, delivered but not received, and tracking unavailable
+
+4. create a responsive mobile-first Order Tracking UI using React and Tailwind CSS. Focus on clean spacing, typography, hierarchy, and a clear delivery timeline
+
+5. implement a reusable order delivery timeline component in React that visually shows completed, current, pending, delayed, and problem states
+
+6. Review the Order Tracking UI requirements and suggest how the interface should communicate a delayed order and a delivered-but-not-received order clearly to the user
+
+7. improve the responsive design of my React Order Tracking screen for mobile widths between 360px and 430px without adding unnecessary complexity
+
+8. prepare a short README.md for this frontend assessment project, including the tech stack, main features, and live deployment link
