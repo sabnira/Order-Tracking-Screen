@@ -1,6 +1,6 @@
 import { useState } from "react";
 import OrderHeader from "../components/OrderHeader";
-// import StatusBanner from "../components/StatusBanner";
+import StatusBanner from "../components/StatusBanner";
 // import OrderTimeline from "../components/OrderTimeline";
 // import OrderSummary from "../components/OrderSummary";
 // import SupportCard from "../components/SupportCard";
@@ -66,15 +66,15 @@ const OrderTracking = () => {
                     </div>
                 </div>
 
-                {/* <main className="space-y-7 px-5 py-6">
+                <main className="space-y-7 px-5 py-6">
                     <StatusBanner order={order} />
 
-                    <OrderTimeline status={order.status} />
+                    {/* <OrderTimeline status={order.status} />
 
                     <OrderSummary product={order.product} />
 
-                    <SupportCard status={order.status} />
-                </main> */}
+                    <SupportCard status={order.status} /> */}
+                </main>
 
                 <footer className="px-5 pb-8 pt-2 text-center">
                     <p className="text-xs text-base-content/35">
